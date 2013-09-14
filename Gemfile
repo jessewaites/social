@@ -25,6 +25,8 @@ gem 'uglifier', '>= 1.3'
 
 gem 'jquery-rails'
 
+gem 'multi_json', '1.7.8'
+
 # TODO restructure app to not use these gems
 gem 'protected_attributes'
 gem 'rails-observers'
