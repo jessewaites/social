@@ -1,4 +1,7 @@
 Treebook::Application.routes.draw do
+  get "pages/about"
+  get "pages/landing"
+  get "pages/hireme"
   get "profiles/show"
   devise_for :users
 
@@ -10,7 +13,7 @@ Treebook::Application.routes.draw do
 
   resources :statuses
   get 'feed', to: 'statuses#index', as: :feed
-  root to: 'statuses#index'
+  root to: 'pages#landing'
 
   get '/:id', to: 'profiles#show'
 

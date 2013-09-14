@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Treebook</title>
+  <title>Social Network</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
 
   <%= csrf_meta_tags %>
 </head>
+<div id="wrap">
 <body>
 
   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
@@ -49,6 +50,13 @@
 
     <%= yield %>
   </div>
-
+</div>
 </body>
+
+<div id="footer">
+      <div class="container">
+        <br>
+        <p class="text-muted credit">Site built in Rails 4 & Bootstrap 3 by <a href="http://www.linkedin.com/profile/view?id=69029327">Jesse Waites</a>.</p>
+      </div>
+    </div>
 </html>
