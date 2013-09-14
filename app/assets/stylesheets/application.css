@@ -12,6 +12,20 @@
  *= require_tree .
  */
 
+ h1 {
+    font-family: 'Medula One', cursive;
+    font-weight: normal;
+    line-height: 46px;
+    font-size: 52px;
+    margin: 0 0 23px 0;
+    }
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
 body { padding-top: 70px; }
 .alert { margin-top: 10px; }
 
